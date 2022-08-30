@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbars from '../../common/Navigation/Navbars';
 
-const About = () => {
+const Support = () => {
   return (
     <div>
-      <Navbars/>
-      <p>About</p>
-    </div>
+        <Navbars/>
+        <p>Support</p>
+        </div>
   )
 }
 
-export default About
+export default Support
