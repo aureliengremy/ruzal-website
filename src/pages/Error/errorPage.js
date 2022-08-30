@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbars from '../../common/Navigation/Navbars';
 
-const errorPage = () => {
+const ErrorPage = () => {
   return (
-    <div>404</div>
+    <div>
+      <Navbars/>
+      <p>404</p>
+    </div>
   )
 }
 
-export default errorPage
+export default ErrorPage
