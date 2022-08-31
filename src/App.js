@@ -12,7 +12,7 @@ function App() {
   return (
 
     <Routes>
-      <Route path="/home" element={<Navigate to="/home"/>}/>
+      <Route path="/" element={<Navigate to="/home"/>}/>
       <Route path="/home" element={<Home/>}/>
       <Route path="/realization" element={<Realization/>} />
       <Route path="/support" element={<Support/>} />
