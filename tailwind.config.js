@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'split-black-gray': "linear-gradient(to left, #fafafa 50%, #2C272E 50%);"
+      },
+      backgroundColor: {
+        'custom-gray': "#2C272E",
+      },
+    },
   },
   plugins: [],
 }
