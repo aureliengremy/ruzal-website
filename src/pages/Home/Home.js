@@ -48,9 +48,9 @@ const Home = () => {
           <div className=" bg-white border border-gray-600 dark:bg-gray-800 dark:border-gray-200">
             <div className="p-5">
               <h4 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Small title</h4>
-              
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-              
+
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+
               <p className="mb-1 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
             <div className="px-5 h-80">
@@ -67,9 +67,9 @@ const Home = () => {
           <div className=" bg-white border border-gray-600 dark:bg-gray-800 dark:border-gray-200">
             <div className="p-5">
               <h4 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Small title</h4>
-              
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-             
+
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+
               <p className="mb-1 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
             <div className="px-5 h-80">
@@ -86,9 +86,9 @@ const Home = () => {
           <div className=" bg-white border border-gray-600 dark:bg-gray-800 dark:border-gray-200">
             <div className="p-5">
               <h4 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Small title</h4>
-             
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-              
+
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+
               <p className="mb-1 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
             <div className="px-5 h-80">
@@ -104,10 +104,62 @@ const Home = () => {
         </div>
       </div>
       {/* GALLERY */}
+      {/* make a mobile component to show only one or two with a like to the page */}
       <div className="bg-custom-gray">
-        <div className="container m-auto ">
-          <p className="text-gray-200">Gallery</p>
+        <div className="container m-auto py-5">
+          <div className="lg:hidden">
+            <div className="p-5 h-full">
+              <img alt="gallery" class="block object-cover object-center w-full h-32"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+              <p className="text-slate-300 text-center m-2">realisation 1</p>
+            </div>
+            <div className="p-5 h-full">
+              <img alt="gallery" class="block object-cover object-center w-full h-44"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+              <p className="text-slate-300 text-center m-2">realisation 2</p>
+            </div>
+            <div className="text-center text-slate-300">
+              <a href="/realization">Voir tout</a>
+            </div>
+          </div>
+          <div className="hidden lg:block">
+          <div className="flex flex-wrap justify-evenly items-center py-5">
+            <div className="real-1 w-1/4">
+              <img alt="gallery" class="block object-cover object-center w-3/4 h-32 m-auto"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+              <p className="text-slate-300 text-center m-2">realisation 1</p>
+            </div>
+            <div className="real-2 w-2/4">
+              <img alt="gallery" class="block object-cover object-center w-full h-64 m-auto"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(71).webp" />
+              <p className="text-slate-300 text-center m-2">realisation 2</p>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-evenly items-center py-5">
+            <div className="real-3 w-1/3 -mt-6">
+              <img alt="gallery" class="block object-cover object-center w-3/4 h-44 m-auto"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+              <p className="text-slate-300 text-center m-2">realisation 3</p>
+            </div>
+            <div className="real-4 w-1/5">
+              <img alt="gallery" class="block object-cover object-center w-full h-34 m-auto"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+              <p className="text-slate-300 text-center m-2">realisation 4</p>
+            </div>
+            <div className="real-5 w-1/3 -mb-6">
+              <img alt="gallery" class="block object-cover object-center w-full h-52 m-auto"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
+              <p className="text-slate-300 text-center m-2">realisation 5</p>
+            </div>
+          </div>
+
+          <div className="text-center text-slate-300 p-5">
+            <a href="/realization">Voir tout</a>
+          </div>
+
+          </div>
         </div>
+
       </div>
       {/* REVIEW */}
       <div className="container m-auto h-auto">
@@ -205,7 +257,7 @@ const Home = () => {
         </div>
       </div>
 
-    </div>
+    </div >
   )
 }
 
