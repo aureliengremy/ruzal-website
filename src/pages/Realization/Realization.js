@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../common/Footer/Footer';
 import Navbars from '../../common/Navigation/Navbars';
 
 const Realization = () => {
@@ -6,6 +7,7 @@ const Realization = () => {
     <div>
         <Navbars/>
         <p>Realization</p>
+        <Footer/>
     </div>
   )
 }

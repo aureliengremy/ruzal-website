@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../common/Footer/Footer';
 import Navbars from '../../common/Navigation/Navbars';
 
 const ErrorPage = () => {
@@ -6,6 +7,7 @@ const ErrorPage = () => {
     <div>
       <Navbars/>
       <p>404</p>
+      <Footer/>
     </div>
   )
 }
