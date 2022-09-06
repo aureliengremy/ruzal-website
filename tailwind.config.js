@@ -9,8 +9,11 @@ module.exports = {
         'split-black-gray': "linear-gradient(to left, #fafafa 50%, #2C272E 50%);"
       },
       backgroundColor: {
-        'custom-gray': "#2C272E",
+        'custom-gray': "#2C272E"
       },
+      colors: {
+        'custom-orange': '#E59934'
+      }
     },
   },
   plugins: [],
