@@ -45,7 +45,7 @@ const Navbars = () => {
                         src=""
                         alt=""
                     /> */}
-                                <p className="text-gray-400">RUzal</p>
+                                <p className="text-gray-400 font-bold">R.Uzal</p>
                             </div>
                             <div className="hidden sm:ml-auto sm:block">
                                 <div className="flex space-x-4">
