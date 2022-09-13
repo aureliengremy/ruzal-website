@@ -55,9 +55,9 @@ const About = () => {
                 <button type="button"
                   key={timeline.id}
                   onClick={() => handleClick(timeline.id)}
-                  className="py-2 px-4 w-full font-medium text-left border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 transition duration-150 ease-in-out"
+                  className="flex justify-between py-2 px-4 w-full font-medium text-left border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 transition duration-150 ease-in-out"
                 >
-                  {timeline.title}
+                  {timeline.title} <span className="">{timeline.date}</span>
                 </button>
               )
             })
