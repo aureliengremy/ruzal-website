@@ -33,7 +33,7 @@ const About = () => {
   }
 
   return (
-    <div>
+    <div id="about">
       <Navbars />
       <div className="container m-auto py-6">
         <div className="flex flex-col md:flex-row bg-white">
