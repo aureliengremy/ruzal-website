@@ -4,7 +4,7 @@ const Layout = ({children, bgColor, moreClassWithContainer}) => {
   return (
     <div className={bgColor}>
         <div className={`container m-auto ${moreClassWithContainer}`}>
-            {children}
+             {children}
         </div>
     </div>
   )
