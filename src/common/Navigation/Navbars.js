@@ -23,7 +23,7 @@ const Navbars = () => {
 
     return (
         <header>
-            <nav className="bg-gray-800">
+            <nav className="bg-custom-gray">
                 {/* max-w-7xl sm:px-6 lg:px-8 */}
                 <div className="mx-auto px-2 container">
                     <div className="relative flex h-16 items-center justify-between">
@@ -76,7 +76,7 @@ const Navbars = () => {
                                     to={item.href}
                                     className={navInfo =>
                                         navInfo.isActive ?
-                                            classNames('bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium')
+                                            classNames('bg-custom-gray text-white block px-3 py-2 rounded-md text-base font-medium')
                                             : classNames('text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium')
                                     }
                                 >
