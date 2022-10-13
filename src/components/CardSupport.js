@@ -1,7 +1,6 @@
 import React from 'react'
-import Layout from '../common/Layout/Layout'
 
-const CardSupport = () => {
+const CardSupport = ({bgColor, spacing}) => {
 
     const cardsInfo = [
         {
@@ -28,7 +27,7 @@ const CardSupport = () => {
     ]
 
     return (
-        <Layout bgColor="bg-custom-white">
+        <div className={`${bgColor} ${spacing}`}>
             <div className="block md:flex my-5">
                 {cardsInfo.map(card => (
                     <div className=" bg-white border border-gray-600">
@@ -51,7 +50,7 @@ const CardSupport = () => {
                     </div>
                 ))}
             </div>
-        </Layout>
+        </div>
     )
 }
 

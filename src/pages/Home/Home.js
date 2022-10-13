@@ -7,11 +7,12 @@ import CardSupport from '../../components/CardSupport';
 const Home = () => {
 
   return (
-    <div id="home">
+    <div id="home" className="grid">
       <Navbars />
       <HeroVideo />
       {/* CARD  */}
-      <CardSupport/>
+      <CardSupport bgColor="bg-gradient-to-t from-white to-black" 
+                   spacing="p-28"  />
       {/* GALLERY */}
       {/* make a mobile component to show only one or two with a like to the page */}
       <div className="bg-custom-gray">
