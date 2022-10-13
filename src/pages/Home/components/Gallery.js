@@ -1,12 +1,17 @@
 import React from 'react'
 
 const Gallery = ({spacing}) => {
+
+    // random assign class shadow number to every image
+
+
   return (
     <div className={`bg-custom-gray ${spacing}`}>
         <div className="container m-auto py-5">
+            {/* MOBILE */}
           <div className="lg:hidden">
             <div className="p-5 h-full">
-              <img alt="gallery" className="block object-cover object-center w-full h-32 gallery-item"
+              <img alt="gallery" className="block object-cover object-center w-full h-32"
                 src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
               <p className="text-slate-300 text-center m-2">realisation 1</p>
             </div>
@@ -19,12 +24,13 @@ const Gallery = ({spacing}) => {
               <a href="/realization">Voir tout</a>
             </div>
           </div>
+            {/* LARGE */}
           <div className="hidden lg:block">
             <div className="flex flex-wrap justify-evenly items-center py-5">
               <div className="real-1 w-1/4">
-                <img alt="gallery" className="block object-cover object-center w-3/4 h-32 m-auto"
+                <img alt="gallery" className="block object-cover object-center w-3/4 h-32 m-auto gallery-item -p-4 hover:p-0"
                   src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
-                <p className="text-slate-300 text-center m-2">realisation 1</p>
+                <p className="text-slate-300 text-center m-2 z-10">realisation 1</p>
               </div>
               <div className="real-2 w-2/4">
                 <img alt="gallery" className="block object-cover object-center w-full h-64 m-auto"
