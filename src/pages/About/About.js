@@ -23,7 +23,43 @@ const About = () => {
       title: 'third timeline',
       date: '03/12/2002',
       description: 'Third Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia officiis accusantium tempore ipsum unde eum sint eaque vero modi repellat nulla ratione perferendis itaque vitae magnam repellendus, nesciunt aliquam accusamus.'
-    }
+    },
+    {
+      id: 4,
+      title: 'second timeline',
+      date: '02/12/2002',
+      description: 'Second Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia officiis accusantium tempore ipsum unde eum sint eaque vero modi repellat nulla ratione perferendis itaque vitae magnam repellendus, nesciunt aliquam accusamus.'
+    },
+    {
+      id: 5,
+      title: 'third timeline',
+      date: '03/12/2002',
+      description: 'Third Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia officiis accusantium tempore ipsum unde eum sint eaque vero modi repellat nulla ratione perferendis itaque vitae magnam repellendus, nesciunt aliquam accusamus.'
+    },
+    {
+      id: 6,
+      title: 'second timeline',
+      date: '02/12/2002',
+      description: 'Second Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia officiis accusantium tempore ipsum unde eum sint eaque vero modi repellat nulla ratione perferendis itaque vitae magnam repellendus, nesciunt aliquam accusamus.'
+    },
+    {
+      id: 7,
+      title: 'third timeline',
+      date: '03/12/2002',
+      description: 'Third Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia officiis accusantium tempore ipsum unde eum sint eaque vero modi repellat nulla ratione perferendis itaque vitae magnam repellendus, nesciunt aliquam accusamus.'
+    },
+    {
+      id: 8,
+      title: 'second timeline',
+      date: '02/12/2002',
+      description: 'Second Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia officiis accusantium tempore ipsum unde eum sint eaque vero modi repellat nulla ratione perferendis itaque vitae magnam repellendus, nesciunt aliquam accusamus.'
+    },
+    {
+      id: 9,
+      title: 'third timeline',
+      date: '03/12/2002',
+      description: 'Third Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia officiis accusantium tempore ipsum unde eum sint eaque vero modi repellat nulla ratione perferendis itaque vitae magnam repellendus, nesciunt aliquam accusamus.'
+    },
   ]
 
   const [result, setResult] = useState('None')
@@ -47,7 +83,7 @@ const About = () => {
           <img className="md:w-1/2 h-52 md:h-auto object-cover" src="https://images.squarespace-cdn.com/content/v1/620e74d7c40768323153fba5/56194fee-7329-4bd6-8ef7-2670db26238d/Roman_6372%2Bcopie.jpg" alt="" />
         </div>
       </div>
-      <div className="container m-auto py-6">
+      <div className="container m-auto py-28">
         <div className="timeline-section flex">
           <div className="w-1/2 text-sm font-medium text-gray-900 bg-white border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
             {timelines.map(timeline => {
