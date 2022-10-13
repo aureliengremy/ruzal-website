@@ -1,6 +1,5 @@
 import React from 'react'
 import YouTube from 'react-youtube';
-import Layout from '../common/Layout/Layout';
 
 const HeroVideo = () => {
     const opts = {
@@ -18,7 +17,7 @@ const HeroVideo = () => {
     };
 
     return (
-        <Layout bgColor="bg-black">
+        <div className="bg-black">
             <div className="w-full relative h-[300px] sm:h-full ">
                 <div className="hidden sm:block brightness-50">
                     <YouTube videoId="QJhNFUBx0qc" opts={opts} />
@@ -28,7 +27,7 @@ const HeroVideo = () => {
                     <h1 className="mr-4 sm:mr-12 lg:mr-44 xl:mr-60 2xl:mr-80 text-right text-zinc-50 text-8xl font-bold">UZAL</h1>
                 </div>
             </div>
-        </Layout>
+        </div>
     )
 }
 
