@@ -47,12 +47,12 @@ const Realization = () => {
               return (
                 <div className="py-8">
                   <div
-                    class="embed-responsive embed-responsive-21by9 relative w-5/6 m-auto overflow-hidden transition duration-500 brightness-50 hover:brightness-100"
+                    className="embed-responsive embed-responsive-21by9 relative w-5/6 m-auto overflow-hidden transition duration-500 brightness-50 hover:brightness-100"
                     style={{ paddingTop: "35.857143%" }}
                   >
                     <iframe
                       title={item.title}
-                      class="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
+                      className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
                       src={item.url}
                       allowfullscreen=""
                       data-gtm-yt-inspected-2340190_699="true"

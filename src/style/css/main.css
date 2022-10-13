@@ -1,2 +1,14 @@
 .title {
-  color: gold; }
+  color: gold; 
+}
+
+.gallery-item {
+  box-shadow: -35px 40px 1px #753188;
+  padding: 10px;
+  transition: box-shadow 2s, padding 1.7s;
+  transition-timing-function: ease;
+}
+.gallery-item:hover {
+  box-shadow: 25px 25px 1px #753188;
+  padding: 15px;
+}

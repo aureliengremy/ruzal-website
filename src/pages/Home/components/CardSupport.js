@@ -30,7 +30,7 @@ const CardSupport = ({bgColor, spacing}) => {
         <div className={`${bgColor} ${spacing}`}>
             <div className="block md:flex my-5">
                 {cardsInfo.map(card => (
-                    <div className=" bg-white border border-gray-600">
+                    <div key={card.smallTitle} className=" bg-white border border-gray-600">
                         <div className="p-5">
                             <h4 className="mb-2 text-lg font-bold tracking-tight text-gray-900">{card.smallTitle}</h4>
 
