@@ -71,7 +71,7 @@ const About = () => {
   return (
     <div id="about">
       <Navbars />
-      <div className="container m-auto py-6">
+      <div className="container m-auto">
         <div className="flex flex-col md:flex-row bg-white">
           <div className="p-12 flex flex-col justify-center md:w-1/2 2xl:w-full 2xl:p-44">
             <h5 className="text-gray-900 text-xl font-medium mb-2">I'm title</h5>
@@ -83,23 +83,26 @@ const About = () => {
           <img className="md:w-1/2 h-52 md:h-auto object-cover" src="https://images.squarespace-cdn.com/content/v1/620e74d7c40768323153fba5/56194fee-7329-4bd6-8ef7-2670db26238d/Roman_6372%2Bcopie.jpg" alt="" />
         </div>
       </div>
-      <div className="container m-auto py-28">
-        <div className="timeline-section flex">
-          <div className="w-1/2 text-sm font-medium text-gray-900 bg-white border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+      <div className="container m-auto pb-16">
+        <div className="timeline-section flex flex-col md:flex-row">
+          <div className="md:w-1/2 text-sm font-medium text-gray-900 bg-white border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
             {timelines.map(timeline => {
               return (
-                <button type="button"
+                <div type="button"
                   key={timeline.id}
                   onClick={() => handleClick(timeline.id)}
-                  className="flex justify-between py-2 px-4 w-full font-medium text-left border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 transition duration-150 ease-in-out"
+                  className="flex justify-between py-8 px-4 w-full border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 transition duration-150 ease-in-out"
                 >
-                  {timeline.title} <span className="">{timeline.date}</span>
-                </button>
+                  <p className="font-light text-left text-xl">
+                    {timeline.title}
+                  </p>
+                  <span className="text-md my-auto">{timeline.date}</span>
+                </div>
               )
             })
             }
           </div>
-          <div className="result-timeline w-1/2 h-auto p-5 border border-gray-200">
+          <div className="result-timeline md:w-1/2 h-auto p-5 border border-gray-200">
             <p className="font-medium transition duration-150 ease-in-out">{result}</p>
           </div>
         </div>
