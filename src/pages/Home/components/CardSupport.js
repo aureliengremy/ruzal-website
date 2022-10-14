@@ -28,7 +28,7 @@ const CardSupport = ({bgColor, spacing}) => {
 
     return (
         <div className={`${bgColor} ${spacing}`}>
-            <div className="block md:flex my-5">
+            <div className="block md:flex justify-center my-5">
                 {cardsInfo.map(card => (
                     <div key={card.smallTitle} className=" bg-white border border-gray-600">
                         <div className="p-5">
