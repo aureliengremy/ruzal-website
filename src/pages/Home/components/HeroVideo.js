@@ -21,6 +21,11 @@ const HeroVideo = () => {
             <div className="w-full relative h-[300px] sm:h-full ">
                 <div className="hidden sm:block brightness-50">
                     <YouTube videoId="QJhNFUBx0qc" opts={opts} />
+                    {/* <iframe
+                      title='test'
+                      className="embed-responsive-item w-full h-full"
+                      src="https://youtu.be/kx_IULft_JE"
+                    ></iframe> */}
                 </div>
                 <div className="absolute bottom-12 w-full">
                     <h1 className="ml-4 sm:ml-12 lg:ml-44 xl:ml-60 2xl:ml-80 text-zinc-50 text-8xl font-bold">ROMAN</h1>

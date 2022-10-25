@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'split-black-gray': "linear-gradient(to left, #fafafa 50%, #2C272E 50%)"
+        'split-black-gray': "linear-gradient(to left, #fafafa 50%, #2C272E 50%)",
+        'footer-image': "url('/src/assets/roman-650.png')"
       },
       backgroundColor: {
         'custom-gray': "#2C272E",

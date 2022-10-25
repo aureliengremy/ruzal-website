@@ -2,7 +2,7 @@ import React from 'react'
 
 const Reviews = () => {
   return (
-    <div className="bg-white py-28">
+    <div className="bg-white">
     <div className="w-[100vw] m-auto h-auto">
       <div className="overflow-x-auto overflow-y-hidden relative  ">
         <div className="w-[1536px] h-36 2xl:w-[1836px] flex row ">

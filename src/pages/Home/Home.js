@@ -13,7 +13,7 @@ const Home = () => {
       <Navbars />
       <HeroVideo />
       {/* CARD  */}
-      <CardSupport bgColor="bg-gradient-to-t from-white to-black" 
+      <CardSupport bgColor="bg-gradient-to-t from-custom-gray via-white to-black" 
                    spacing="p-28"  />
       {/* GALLERY */}
       {/* make a mobile component to show only one or two with a like to the page */}

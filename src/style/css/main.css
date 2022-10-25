@@ -3,14 +3,16 @@
 }
 
 .gallery-item {
-  box-shadow: -35px 40px 1px #753188;
+  box-shadow: -25px 30px 1px #753188;
   padding: 5px;
   transition: box-shadow 2s, padding 1.7s;
   transition-timing-function: ease;
 }
 .gallery-item:hover {
-  box-shadow: 25px 25px 1px #753188;
+  box-shadow: 25px 10px 1px #753188;
   padding: 0px;
 }
+
+
 
 /* class by item with hover */

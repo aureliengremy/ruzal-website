@@ -4,12 +4,13 @@ const Footer = () => {
   return (
     <div className="lg:bg-split-black-gray ">
         <div className="container m-auto">
-          <div className="flex flex-col lg:flex-row">
-            <div className="lg:h-full lg:w-1/2 relative mt-auto order-last lg:order-first">
+          <div className="flex flex-col lg:flex-row  h-[100vh]">
+            <div className="lg:h-3/4 lg:w-1/2 relative mt-auto order-last lg:order-first">
               <h3 className="absolute mt-44 ml-3 text-7xl text-zinc-50 font-bold">Viva la vida</h3>
-              <img className="w-full h-full object-cover object-center contrast-200 grayscale opacity-25" src={require("../../assets/roman-detour-footer.png")} alt="" />
+              <img className="w-full h-full object-cover object-center contrast-200 grayscale opacity-25" src={require("../../assets/roman-400x400.png")} alt="" />
             </div>
             <div className="h-auto lg:w-1/2 my-auto py-28">
+              <h2 className="text-lg text-center pb-6">Contact</h2>
               <form>
                 <div className="grid gap-6 md:grid-cols-2 p-5">
                   <div>
